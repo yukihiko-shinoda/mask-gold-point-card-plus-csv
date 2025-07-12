@@ -1,0 +1,6 @@
+services:
+  mask-gold-point-card-plus-csv:
+    build: .
+    image: futureys/mask-gold-point-card-plus-csv:development
+    volumes:
+      - .:/workspace
